@@ -52,6 +52,6 @@ class Hangman:
                 print(f"Congratulations, you correctly guessed {game.word}. You have won!")
   
     if __name__ == "__main__":
-     word_list = ['pomergranate', 'strawberries', 'pineapple', 'apple', 'grapes']
+     word_list = ['pomegranate', 'strawberries', 'pineapple', 'apple', 'grapes']
      play_game(word_list)
   
