@@ -1,6 +1,6 @@
 import random
 
-word_list = ['pomergranate', 'strawberries', 'pineapple', 'apple', 'grapes']
+word_list = ['pomegranate', 'strawberries', 'pineapple', 'apple', 'grapes']
 word = random.choice(word_list)
 
 def check_guess(guess):
