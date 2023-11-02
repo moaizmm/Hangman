@@ -1,6 +1,6 @@
 import random
 
-word_list = ['pomergranate', 'strawberries', 'pineapple', 'apple', 'grapes']
+word_list = ['pomegranate', 'strawberries', 'pineapple', 'apple', 'grapes']
 word = random.choice(word_list)
 guess = input('Enter a single letter: ')
 if len(guess) == 1 and guess.isalpha():
