@@ -38,7 +38,7 @@ class Hangman:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
 
-    def play_game(word_list):
+    def play_game():
         num_lives = 5
         game = Hangman(word_list, num_lives)
 
@@ -50,8 +50,5 @@ class Hangman:
                 game.ask_for_input()
             else:
                 print(f"Congratulations, you correctly guessed {game.word}. You have won!")
-  
-    if __name__ == "__main__":
-     word_list = ['pomergranate', 'strawberries', 'pineapple', 'apple', 'grapes']
-     play_game(word_list)
-  
+
+Hangman.play_game(word_list)
