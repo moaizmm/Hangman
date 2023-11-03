@@ -38,7 +38,7 @@ class Hangman:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
 
-    def play_game():
+    def play_game(word_list):
         num_lives = 5
         game = Hangman(word_list, num_lives)
 
