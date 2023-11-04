@@ -46,7 +46,7 @@ hangman/
 - Milestone_3.py # Containing the code for Milestone 3.
 - Milestone_4.py # Containing the code for Milestone 4.
 - Milestone_5.py # Containing the code for Milestone 5.
-- Hangman.py   # The main game file combining all the code and logic from the various milestones.
+- Hangman.py   # The main game file combining all the code and logic from the various milestones wit Docstrings added.
 - README.md    # This file, explaining the project includings the aims of the project and use.
 - LICENSE      # Information about the MIT license which the project is under.
 
